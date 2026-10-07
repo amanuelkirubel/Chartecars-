@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Charte Cars World",
+  "short_name": "Charte Cars",
+  "description": "Charte Cars — Premier World automobile marketplace app to buy, rent, and list verified cars, luxury vehicles, and SUVs.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "categories": ["auto", "shopping", "business"],
+  "icons": [
+    {
+      "src": "/charte-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/charte-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

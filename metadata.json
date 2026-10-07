@@ -1,0 +1,6 @@
+{
+  "name": "Charte Cars",
+  "description": "Charte Cars — Premier World automobile marketplace app to buy, rent, and list verified vehicles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

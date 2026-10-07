@@ -1,0 +1,60 @@
+import { Language } from '../types';
+
+export const translations = {
+  en: {
+    hero_badge: "World's Leading Verified Car Marketplace",
+    hero_title: "FIND A CAR YOU CAN ACTUALLY SEE YOURSELF IN.",
+    hero_sub: "Browse verified vehicles for sale and rent across the world. Zero broker commission, direct owner & dealer connection.",
+    all: "All",
+    sale: "Sale",
+    rent: "Rent",
+    sold: "Sold",
+    urgent: "Urgent",
+    latest_listings: "LATEST LISTINGS",
+    search_vehicles: "Search Vehicles",
+    sell_car: "SELL",
+    list_your_car: "+ List Your Car",
+    download_app: "Download App",
+    verified_cars: "Verified World Cars",
+    broker_free: "0% Broker Commission",
+    direct_contact: "Direct Contact",
+    telegram_contact: "Contact Telegram: @chartecar",
+    telegram_channel: "Telegram Channel: @Chartecars",
+    tiktok_channel: "TikTok: @Chartecars",
+    view_specs: "View Specs",
+    direct_seller: "Direct Seller",
+    listed: "LISTED",
+    sold_badge: "SOLD",
+    urgent_badge: "URGENT",
+  },
+  am: {
+    hero_badge: "የዓለም ቀዳሚ የመኪና የገበያ ስፍራ",
+    hero_title: "እራስዎን የሚያዩበትን ተመራጭ መኪና ያግኙ።",
+    hero_sub: "በመላው ዓለም አስተማማኝ ተሽከርካሪዎችን ይግዙ፣ ይሽጡ ወይም ይከራዩ። ቀጥታ ከባለቤቶችና ከተረጋገጡ ሻጮች ጋር ያለ ደላላ ይገናኙ።",
+    all: "ሁሉም",
+    sale: "ሽያጭ",
+    rent: "ኪራይ",
+    sold: "የተሸጠ",
+    urgent: "አጣዳፊ",
+    latest_listings: "የቅርብ ጊዜ ዝርዝሮች",
+    search_vehicles: "መኪና ፈልግ",
+    sell_car: "ሽጥ",
+    list_your_car: "+ መኪና ይሽጡ / ይዘርዝሩ",
+    download_app: "አውርድ",
+    verified_cars: "የተረጋገጡ የዓለም መኪኖች",
+    broker_free: "0% የደላላ ኮሚሽን",
+    direct_contact: "ቀጥተኛ ግንኙነት",
+    telegram_contact: "የቴሌግራም አድራሻችን፡ @chartecar",
+    telegram_channel: "ቴሌግራም ቻናል ይቀላቀሉ፡ @Chartecars",
+    tiktok_channel: "ቲክቶክ ቻናላችን፡ @Chartecars",
+    view_specs: "ዝርዝር መረጃ",
+    direct_seller: "ቀጥተኛ ሻጭ",
+    listed: "በዝርዝር ላይ",
+    sold_badge: "የተሸጠ",
+    urgent_badge: "አጣዳፊ",
+  }
+};
+
+export function getTranslation(lang: Language) {
+  return translations[lang] || translations.en;
+}
